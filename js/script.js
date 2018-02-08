@@ -7,6 +7,14 @@ function iconSources()
   });
 }
 
+function snapchat()
+{
+  swal({
+     title: "@fossilfreemac",
+     text: "Get updates on the movement and follow us on Snapchat",
+  });
+}
+
 (function($) {
   "use strict"; // Start of use strict
 

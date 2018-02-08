@@ -82,6 +82,31 @@ a
   color:#e0b468;
 }
 
+.contract-row
+{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+.contract-item
+{
+  margin-left:2px;
+  margin-right:2px;
+  display: inline-block;
+  font-size: 19px;
+  line-height: 43px;
+  color:#233f50;
+  height:43px;
+  width:43px;
+  border-radius: 43px;
+  background-color:#e0b468;
+}
+
 .action-section
 {
   height:250px;
@@ -349,6 +374,7 @@ textarea, input, button { outline: none; }
   background-image: url("../img/pollution.jpeg");
 }
 
+
 .hero
 {
   height:100%;
@@ -431,7 +457,12 @@ textarea, input, button { outline: none; }
 
 .delay3
 {
-  animation-delay: .55s;
+  animation-delay: .65s;
+}
+
+.delay4
+{
+  animation-delay: 85s;
 }
 
 .header-text-description
@@ -538,8 +569,8 @@ textarea, input, button { outline: none; }
 {
   height:77px;
   line-height: 77px;
-  width:245px;
-  font-size:20px;
+  width:275px;
+  font-size:19px;
   color:#fff;
 }
 
@@ -854,8 +885,8 @@ body {
 .logo
 {
   position: relative;
-  width:80px;
-  height:80px;
+  width:115px;
+  height:115px;
   margin-bottom:10px;
 
 }
@@ -895,6 +926,11 @@ hr {
 {
   padding-top:15px;
   padding-bottom:15px;
+}
+
+.margin-top-contracts
+{
+  margin-top:8px;
 }
 
 .margin-top-footer
