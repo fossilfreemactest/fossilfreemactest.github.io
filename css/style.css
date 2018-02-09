@@ -105,6 +105,7 @@ a
   width:43px;
   border-radius: 43px;
   background-color:#e0b468;
+  transition: height .3s, width .3s
 }
 
 .action-section
@@ -462,7 +463,7 @@ textarea, input, button { outline: none; }
 
 .delay4
 {
-  animation-delay: 85s;
+  animation-delay: .85s;
 }
 
 .header-text-description
@@ -1192,6 +1193,31 @@ and (min-width : 1130px)
   .accordionTitle
   {
     font-size: 30px;
+  }
+}
+
+@media only screen
+and (max-device-width:360px)
+{
+  .contract-item
+  {
+    height:24px;
+    width:24px;
+    line-height: 24px;
+    font-size: 16px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 361px)
+and (max-device-width: 471px)
+{
+  .contract-item
+  {
+    height:30px;
+    width:30px;
+    line-height: 30px;
+    font-size: 16px;
   }
 }
 
