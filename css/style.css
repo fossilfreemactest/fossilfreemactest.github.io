@@ -375,6 +375,37 @@ textarea, input, button { outline: none; }
   background-image: url("../img/pollution.jpeg");
 }
 
+.social-icon-box
+{
+  display: inline-block;
+  color:#fff;
+  width:80%;
+  height:85px;
+  line-height: 85px;
+  border: 2px solid #fff;
+  transition: background-color .3s, color .1s, border .3s;
+}
+
+.social-icon-box:hover
+{
+  cursor:pointer;
+  border: 2px solid #fac96d;
+  color:#253f4e;
+  background-color: #fac96d;
+}
+
+.social-icon-big
+{
+  margin-top: 23px;
+  font-size:36px;
+  transition: color 0s;
+}
+
+.social-icon-big:hover
+{
+  color:#263f4d;
+}
+
 
 .hero
 {
@@ -898,7 +929,7 @@ a {
   -moz-transition: all .35s;
   transition: all .35s; }
   a:hover, a:focus {
-    color: #fcbd20; 
+    color: #273f4c; 
   text-decoration: underline;
 }
 
@@ -927,6 +958,11 @@ hr {
 {
   padding-top:15px;
   padding-bottom:15px;
+}
+
+.margin-top-social
+{
+  margin-top:20px;
 }
 
 .margin-top-contracts

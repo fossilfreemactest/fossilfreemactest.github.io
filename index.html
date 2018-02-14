@@ -265,12 +265,12 @@
     <form action="https://formspree.io/zjordan@macalester.edu" method="POST">
       <div class="col col-11 col-md-6 col-centered margin-top max-text-input">
         <div class="text-input-header">Your Name</div>
-        <input type="text" name="name" class = "text-input user">
+        <input type="text" name="name" class = "text-input user" placeholder="Your Name">
         </div>
 
         <div class="col col-11 col-md-6 col-centered margin-top max-text-input">
         <div class="text-input-header">Your Email</div>
-        <input type="email" name="_replyto" class = "text-input email">
+        <input type="email" name="_replyto" class = "text-input email" placeholder="Your Email">
       </div>
 
       <div class="col col-11 col-md-6 col-centered margin-top-text-input max-text-input">
@@ -306,6 +306,47 @@
         target="_blank">
         <div class="action-button join-button no-select scrollDelay1">GET DIRECTIONS</div>
       </a>
+    </div>
+
+    <div class = "col col-12 col-centered text-center margin-top-social">
+      <div class = "row">
+      <div class = "col col-12 col-md-3 text-center scrollDelay2 margin-top-join">
+          <a href = "https://www.facebook.com/FossilFreeMacalester/" target = "_blank" class = "inherit-color">
+            <div class = "social-icon-box">
+               
+                  <i class="fab fa-facebook social-icon-big"></i>
+  
+            </div>
+          </a>
+      </div>
+      <div class = "col col-12 col-md-3 text-center scrollDelay3 margin-top-join">
+          <a onclick = "snapchat()" on-tap="snapchat()" target="_blank" class = "inherit-color">  
+        <div class = "social-icon-box">
+              
+                  <i class="fab fa-snapchat-ghost social-icon-big"></i>
+                
+          </div>
+          </a>
+        </div>
+        <div class = "col col-12 col-md-3 text-center scrollDelay4 margin-top-join">
+            <a href = "https://www.instagram.com/fossilfreemac/" target = "_blank" class = "inherit-color">
+            <div class = "social-icon-box">
+               
+                  <i class="fab fa-instagram social-icon-big"></i>
+  
+            </div>
+          </a>
+        </div>
+        <div class = "col col-12 col-md-3 text-center scrollDelay5 margin-top-join">
+            <a href = "https://twitter.com/FossilFreeMac" target = "_blank" class = "inherit-color">
+            <div class = "social-icon-box">
+                
+                  <i class="fab fa-twitter-square social-icon-big"></i>
+                
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -382,7 +423,7 @@
         <a href = "https://www.facebook.com/FossilFreeMacalester/?ref=br_rs" target="_blank" class = "inherit-color">
           <i class="fab fa-facebook-square social-icon"></i>
         </a>
-        <a onclick = "snapchat()" on-tap = "snapchat" target="_blank" class = "inherit-color">
+        <a onclick = "snapchat()" on-tap = "snapchat()" target="_blank" class = "inherit-color">
           <i class="fab fa-snapchat-ghost social-icon"></i>
         </a>
         <a href = "https://www.instagram.com/fossilfreemac/" target = "_blank" class = "inherit-color">
@@ -529,6 +570,8 @@
     sr.reveal('.scrollDelay1', { delay: delay1 });
     sr.reveal('.scrollDelay2', { delay: delay2 });
     sr.reveal('.scrollDelay3', { delay: delay3 });
+    sr.reveal('.scrollDelay4', { delay: delay4 });
+    sr.reveal('.scrollDelay5', { delay: delay5 });
 
     sr.reveal('.contract-delay1', { delay: contractDelay1 });
     sr.reveal('.contract-delay2', { delay: contractDelay2 });
