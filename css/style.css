@@ -1033,6 +1033,7 @@ hr.light {
 
 .nav-link
 {
+  font-weight: bold;
   color:#fff !important;
 }
 
