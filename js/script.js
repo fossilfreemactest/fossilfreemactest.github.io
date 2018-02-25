@@ -15,6 +15,12 @@ function snapchat()
   });
 }
 
+function openFAQLink(url)
+{
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+
 (function($) {
   "use strict"; // Start of use strict
 

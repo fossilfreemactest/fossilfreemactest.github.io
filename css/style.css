@@ -36,6 +36,11 @@ a
   color:inherit;
 }
 
+.cursor:hover
+{
+  cursor: pointer;
+}
+
 .social-icon
 {
   margin-top: 2px;
