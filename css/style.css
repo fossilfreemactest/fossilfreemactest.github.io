@@ -1209,6 +1209,17 @@ and (max-device-width : 568px)
    }
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 510px)
+{
+   .down-arrow
+   {
+     height:37px;
+     width:37px;
+   }
+}
+
 
 
 
