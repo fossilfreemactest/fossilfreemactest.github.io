@@ -1211,7 +1211,7 @@ and (max-device-width : 568px)
 
 @media only screen 
 and (min-device-width : 275px) 
-and (max-device-width : 400px)
+and (max-device-width : 320px)
 {
    .down-arrow
    {
