@@ -1180,7 +1180,7 @@ and (max-width : 667px)
 
   .header-action-button
   {
-    top:20vh;
+    top:18vh;
   }
 
   .header-text-description
@@ -1215,8 +1215,8 @@ and (max-device-width : 320px)
 {
    .down-arrow
    {
-     height:24px !important;
-     width:24px !important;
+     height:27.5px !important;
+     width:27.5px !important;
    }
 }
 
